@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "rust-analyzer.cargo.targetDir": true,
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.check.extraArgs": [
+        "--",
+        "-Wclippy::pedantic"
+    ],
+    "rust-analyzer.check.allTargets": false,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "rust-analyzer.server.extraEnv": {
+        "RA_LOG": "error",
+        "RA_PROFILE": ""
+    },
+    "rust-analyzer.lazyLoad": true,
+    "rust-analyzer.procMacro.enable": false,
+    "rust-analyzer.server.memoryLimit": 2048,
+    "rust-analyzer.files.excludeDirs": ["node_modules"]
+
+}
