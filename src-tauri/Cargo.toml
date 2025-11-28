@@ -42,7 +42,7 @@ unicode-normalization = "0.1"
 regex = "1.10"
 libc = "0.2"
 
-objc2 = "0.6.3"
+#objc2 = "0.6.3" 
 
 #candle
 #candle-nn = { version = "0.9.1", features = ["metal"] }
