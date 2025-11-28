@@ -2,7 +2,7 @@
 	import { Button } from '$lib/components/ui/button/index';
 	import HelloWorld from '$lib/components/HelloWorld.svelte';
 	import AddMath from '$lib/components/AddMath.svelte';
-	import LLM_js from '$lib/components/llm_js.svelte';
+	import LLM_js from '$lib/components/LLM_js.svelte';
 	import TTS from '$lib/components/TTS.svelte';
 	import LLM from '$lib/components/LLM.svelte';
 	import { onMount } from 'svelte';
